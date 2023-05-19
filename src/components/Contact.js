@@ -2,7 +2,7 @@ function Contact() {
     return(
         <form>
         <a href="mailto:andrearginn@gmail.com">
-            email me here!
+            Email me here!
         </a>
         <p>Name:</p> 
         <input label="name" required/>

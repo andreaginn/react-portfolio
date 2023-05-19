@@ -1,14 +1,18 @@
-function About (){
-    return(
-<div classname="section" id="aboutsection">
-  <h3 classname="heading">ABOUT</h3>
-  <img id="andrea" src="assets/andrea.jpg" height="400px" width="300px" alt="photo of Andrea" />
-  <p>I have loved creating art since I was very young.<br />
-    I primarily work with white charcoal on black paper, but have also experimented <br />
-    with acrylic, watercolors, graphite drawings, and photography.<br />
-    This site will be periodically updated with new coding projects which will replace the current placeholders.
-  </p>
-</div>
+function About() {
+    return (
+        <div classname="section" id="aboutsection">
+            <h3 classname="heading">ABOUT</h3>
+            <img id="andrea" src={require("../assets/andrea.jpg")} height="250px" alt="photo of Andrea" />
+            <p>Hi, I'm Andrea!<br />
+                I'm a soon-to-be graduate from the University of Washington FullStack Bootcamp.<br />
+                I'm primarily interested in Front-End/UX design as I have a background in <br />
+                fine arts, and love using my creative skills whenever possible. <br />
+                I'm currently most familiar with HTML, CSS, Javascript, React, Node, and Express. <br />
+                Feel free to check out my portfolio! I'll be updating it soon with <br />
+                additional fun projects.
+
+            </p>
+        </div>
     )
 }
 export default About
