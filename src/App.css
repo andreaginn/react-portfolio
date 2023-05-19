@@ -36,3 +36,109 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  margin: 0;
+
+}
+
+* {
+  background-color: rgb(44, 46, 46);
+  color: aquamarine;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+  scroll-behavior: smooth;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: rgb(223, 155, 119) 0px 0px 30px;
+
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: rgb(223, 155, 119) 5px 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#about:hover,
+#gallery:hover,
+#contact:hover {
+  color: rgb(223, 155, 119);
+}
+
+#andrea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+
+.contactheading {
+  font-size: 40px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+.assignment {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.assignment img {
+  border-radius: 25px;
+}
+
+.siximages {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.siximages img {
+  border-radius: 20px;
+}
+
+.pictext {
+  text-align: center;
+  font-style: italic;
+}
+
+.phoneemail {
+  text-align: center;
+}
+
+img {
+  box-shadow: rgb(236, 85, 4) 10px 10px;
+}
+
+.break {
+  height: 300px;
+}
+
+.jamsession {
+  height: 300px;
+  width: 450px;
+}
