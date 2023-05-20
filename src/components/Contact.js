@@ -1,5 +1,7 @@
 function Contact() {
     return(
+        <div>
+            <h1 id="header-font">CONTACT</h1>
         <form>
         <a href="mailto:andrearginn@gmail.com">
             Email me here!
@@ -13,6 +15,7 @@ function Contact() {
         <input type = "submit"/>
 
         </form>
+        </div>
     )
 }
 export default Contact

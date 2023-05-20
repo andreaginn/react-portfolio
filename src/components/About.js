@@ -1,9 +1,9 @@
 function About() {
     return (
         <div classname="section" id="aboutsection">
-            <h3 classname="heading">ABOUT</h3>
+            <h3 classname="heading-font">ABOUT</h3>
             <img id="andrea" src={require("../assets/andrea.jpg")} height="250px" alt="photo of Andrea" />
-            <p>Hi, I'm Andrea!<br />
+            <p><span id="hi">Hi, I'm Andrea!</span><br />
                 I'm a soon-to-be graduate from the University of Washington FullStack Bootcamp.<br />
                 I'm primarily interested in Front-End/UX design as I have a background in <br />
                 fine arts, and love using my creative skills whenever possible. <br />

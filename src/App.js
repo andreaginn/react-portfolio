@@ -10,11 +10,12 @@ import Resume from "./components/Resume";
 function App() {
   return (
     <div className="App">
-        <h1>ANDREA GINN</h1>
+        <h1 id="header-font">ANDREA GINN</h1>
         <Header />
         <About />
         <Portfolio />
         <Contact />
+        <Resume />
         <Footer />
       </div>
       );
