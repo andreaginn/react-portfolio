@@ -4,8 +4,9 @@ import DevIcon from "devicon-react-svg";
 
 function Resume() {
     return (
-        <div>
+        <div classname="section" id="resumesection">
   <h1 id="header-font">RESUME</h1>
+  <a href="https://docs.google.com/document/d/1jF1HsQAtfwgtvCW0uUHYXUwEmJ0Fc-xsrcZTlq_9zVU/edit?usp=sharing"><p>Click here to view</p></a>
   <DevIcon id="devicon" icon="html5" />
   <DevIcon id="devicon" icon="css3" />
   <DevIcon id="devicon" icon="git" />

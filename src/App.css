@@ -20,7 +20,7 @@
 
 body {
   margin: 0;
-
+font-size: 20px;
 }
 
 * {
@@ -46,6 +46,7 @@ span {
 
 #header-font {
   font-family: 'Rowdies', cursive;
+  font-size: 60px;
 }
 
 p {
@@ -62,12 +63,13 @@ h1 {
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  margin-bottom: 100px;
 }
 
 #about:hover,
 #gallery:hover,
 #contact:hover {
-  color:#8d99ae;
+  color: #8d99ae;
 }
 
 #andrea {
@@ -119,15 +121,64 @@ ul {
 .break {
   height: 300px;
 }
+
 #socials {
   height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  
 
 }
 
 #faicon {
-  height: 40px
+  height: 40px;
+  
 }
 
 #devicon {
-height: 40px;
+  height: 40px;
+  background-color: #edf2f4b8;
+  border-radius: 25px;
+  margin: 8px;
+  box-shadow: 0 0 5px 10px #edf2f4b8;
+  
+}
+
+.abt-left {
+  height: 30%;
+  float: left;
+  width: 50%;
+  margin-bottom: 250px;
+}
+
+.abt-right {
+  height: 30%;
+  float: right;
+  width: 50%;
+  margin-bottom: 250px;
+}
+
+#gallerysection, #contactsection {
+  margin-bottom: 250px;
+}
+
+#resumesection {
+  margin-bottom: 50px;
+}
+
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }

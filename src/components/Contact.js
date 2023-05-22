@@ -1,6 +1,6 @@
 function Contact() {
     return(
-        <div>
+        <div classname="section" id="contactsection">
             <h1 id="header-font">CONTACT</h1>
         <form>
         <a href="mailto:andrearginn@gmail.com">
