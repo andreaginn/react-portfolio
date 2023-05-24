@@ -10,7 +10,6 @@ import Resume from "./components/Resume";
 function App() {
   return (
     <div className="App">
-        <h1 id="header-font">ANDREA GINN</h1>
         <Header />
         <About />
         <Portfolio />

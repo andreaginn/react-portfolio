@@ -12,11 +12,8 @@ function About() {
             <br />
                 I'm a soon-to-be graduate from the University of Washington FullStack Bootcamp.<br />
                 <br />
-                I'm primarily interested in Front-End/UX design as I have a background in <br />
-                fine arts, and love using my creative skills whenever possible. <br />
-                I'm currently most familiar with HTML, CSS, Javascript, React, Node, and Express. <br />
-                Feel free to check out my portfolio! I'll be updating it soon with <br />
-                additional fun projects.
+                I'm primarily interested in Front-End/UX design as I have a background in fine arts, and love using my creative skills whenever possible. I'm currently most familiar with HTML, CSS, Javascript, React, Node, and Express. 
+                Feel free to check out my portfolio! I'll be updating it soon with additional fun projects.
             </p>
             </div>
         </div>

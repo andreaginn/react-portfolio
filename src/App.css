@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,40 +23,38 @@ font-size: 20px;
 }
 
 * {
-  background-color: #2b2d42;
-  color: #d90429;
-  font-family: 'Josefin Sans', sans-serif;
+ background-color: #2a0d7f;
+  color: #c49dfc;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   scroll-behavior: smooth;
+  text-align: center;
 }
 
 .heading {
   text-align: center;
   font-size: 40px;
-  text-shadow: #2b2d42 0px 0px 30px;
+
 
 }
 
 span {
-  font-style: italic;
   font-size: x-large;
-  color: #edf2f4;
+  font-weight: light;
+  color: #c49dfc;
+  font-family: 'Passion One', cursive;
 }
 
 #header-font {
-  font-family: 'Rowdies', cursive;
+  font-family: 'Passion One', cursive;
   font-size: 60px;
+  text-align: center;
 }
 
 p {
   text-align: center;
 }
 
-h1 {
-  text-align: center;
-  font-size: 50px;
-  text-shadow: #2b2d42 5px 5px;
-}
 
 .nav {
   display: flex;
@@ -101,8 +98,8 @@ ul {
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  margin: 25px;
+  justify-content: space-around;
+  margin-left: 50%;
 }
 
 #portfolio-gallery img {
@@ -139,10 +136,9 @@ ul {
 
 #devicon {
   height: 40px;
-  background-color: #edf2f4b8;
+  background-color: #c49dfc;
   border-radius: 25px;
   margin: 8px;
-  box-shadow: 0 0 5px 10px #edf2f4b8;
   
 }
 
@@ -182,3 +178,26 @@ ul {
   align-items: center;
   text-align: center;
 }
+
+.navbar {
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+.animation-container {
+  flex-shrink: 0;
+  width: 300px; 
+  margin-right: 10px; 
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+#header-font {
+  margin: 0;
+}
+
+
