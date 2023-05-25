@@ -3,8 +3,8 @@ import Fade from 'react-reveal/Fade';
 
 function Portfolio() {
     return (
-      <div className="section" id="gallerysection">
-        <h1 className="heading" id="header-font">PORTFOLIO</h1>
+      <div className="section" id="portfoliosection">
+        <h1 id="header-font">PORTFOLIO</h1>
         <div className="portfolio-gallery">
             <Fade right>
           <a href="https://andreaginn.github.io/HoriseonSite/" className="project-link">

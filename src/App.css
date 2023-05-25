@@ -19,11 +19,11 @@
 
 body {
   margin: 0;
-font-size: 20px;
+  font-size: 20px;
 }
 
 * {
- background-color: #2a0d7f;
+  background-color: #2a0d7f;
   color: #c49dfc;
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
@@ -31,12 +31,6 @@ font-size: 20px;
   text-align: center;
 }
 
-.heading {
-  text-align: center;
-  font-size: 40px;
-
-
-}
 
 span {
   font-size: x-large;
@@ -58,9 +52,9 @@ p {
 
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 20px;
-  margin-bottom: 100px;
+
 }
 
 #about:hover,
@@ -125,13 +119,13 @@ ul {
   display: flex;
   justify-content: space-around;
   margin: auto;
-  
+
 
 }
 
 #faicon {
   height: 40px;
-  
+
 }
 
 #devicon {
@@ -139,24 +133,25 @@ ul {
   background-color: #c49dfc;
   border-radius: 25px;
   margin: 8px;
-  
+
 }
 
 .abt-left {
   height: 30%;
   float: left;
-  width: 50%;
+  width: 40%;
   margin-bottom: 250px;
 }
 
 .abt-right {
   height: 30%;
   float: right;
-  width: 50%;
+  width: 60%;
   margin-bottom: 250px;
 }
 
-#gallerysection, #contactsection {
+#portfoliosection,
+#contactsection {
   margin-bottom: 250px;
 }
 
@@ -180,24 +175,32 @@ ul {
 }
 
 .navbar {
-display: flex;
-justify-content: space-around;
-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .animation-container {
   flex-shrink: 0;
-  width: 300px; 
-  margin-right: 10px; 
+  width: 300px;
+
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-#header-font {
-  margin: 0;
+#name {
+  font-family: 'Passion One', cursive;
+  font-size: 90px;
+  text-align: center;
+  margin-right: 160px;
 }
 
-
+#portfoliosection #header-font {
+  font-family: 'Passion One', cursive;
+  font-size: 60px;
+  text-align: center;
+}

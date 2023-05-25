@@ -19,7 +19,7 @@ function Nav() {
       </div>
 
       <div className="header-container">
-        <h1 id="header-font">ANDREA GINN</h1>
+        <h1 id="name">ANDREA GINN</h1>
         <ul className="nav">
           <li><a href="#aboutsection" id="about header-font">ABOUT</a></li>
           <li><a href="#gallerysection" id="gallery header-font">PORTFOLIO</a></li>
