@@ -1,6 +1,8 @@
 import React from 'react';
 import Lottie from 'react-lottie';
 import animationData from '../assets/141279-codingwithcoffile.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 function Nav() {
   const defaultOptions = {
@@ -13,20 +15,35 @@ function Nav() {
   };
 
   return (
+    <div>
     <div className="navbar">
+   <h1 id="name">ANDREA GINN</h1>
+   <div className="header-container">
+        <ul className="nav">
+          <li>
+            <a href="#aboutsection" id="about" className="header-font"> ABOUT </a>
+          </li>
+          <li><FontAwesomeIcon icon={faCircle} id="nav-circle" /></li>
+          <li>
+            <a href="#portfoliosection" id="portfolio" className="header-font">PORTFOLIO</a>
+            </li>
+            <li><FontAwesomeIcon icon={faCircle} id="nav-circle"  /></li>
+          <li>
+            <a href="#contactsection" id="contact" className="header-font">CONTACT</a>
+          </li>
+          <li><FontAwesomeIcon icon={faCircle} id="nav-circle"  /></li>
+          <li>
+            <a href="#resumesection" id="resume" className="header-font">RESUME</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    <div>
       <div className="animation-container">
         <Lottie options={defaultOptions} />
       </div>
-
-      <div className="header-container">
-        <h1 id="name">ANDREA GINN</h1>
-        <ul className="nav">
-          <li><a href="#aboutsection" id="about header-font">ABOUT</a></li>
-          <li><a href="#gallerysection" id="gallery header-font">PORTFOLIO</a></li>
-          <li><a href="#contactsection" id="contact header-font">CONTACT</a></li>
-          <li><a href="#contactsection" id="resume header-font">RESUME</a></li>
-        </ul>
-      </div>
+      <FontAwesomeIcon icon={faChevronDown} beatFade id="chevron"/>
+    </div>
     </div>
   );
 }

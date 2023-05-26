@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div classname="section" id="aboutsection">
+        <div className="section" id="aboutsection">
             <h1 id="header-font">ABOUT</h1>
             <div className="abt-left">
             <img id="andrea" src={require("../assets/andrea.jpg")} height="250px" alt="photo of Andrea" />

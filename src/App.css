@@ -5,17 +5,13 @@
   text-align: center;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#name {
+  font-family: 'Passion One', cursive;
+  font-size: 90px;
+  width: 100vh;
+  
+
 }
-
-
 
 body {
   margin: 0;
@@ -35,33 +31,17 @@ body {
 span {
   font-size: x-large;
   font-weight: light;
-  color: #c49dfc;
-  font-family: 'Passion One', cursive;
+  color: #c81ce3;
+  text-shadow: 1px 1px #c49dfc;
+  font-family: 'Raleway', sans-serif;
 }
 
 #header-font {
   font-family: 'Passion One', cursive;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
 }
 
-p {
-  text-align: center;
-}
-
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-
-}
-
-#about:hover,
-#gallery:hover,
-#contact:hover {
-  color: #8d99ae;
-}
 
 #andrea {
   display: block;
@@ -69,7 +49,6 @@ p {
   margin-right: auto;
   border-radius: 25px;
 }
-
 
 
 ul {
@@ -109,18 +88,12 @@ ul {
   text-align: center;
 }
 
-.break {
-  height: 300px;
-}
-
 #socials {
   height: 100px;
   width: 200px;
   display: flex;
   justify-content: space-around;
   margin: auto;
-
-
 }
 
 #faicon {
@@ -137,22 +110,27 @@ ul {
 }
 
 .abt-left {
-  height: 30%;
+  height: 30vh;
   float: left;
   width: 40%;
-  margin-bottom: 250px;
+  margin-bottom: 80vh;
 }
 
 .abt-right {
-  height: 30%;
+  height: 30vh;
   float: right;
-  width: 60%;
-  margin-bottom: 250px;
+  width: 50vh;
+  margin-bottom: 80vh;
+  margin-right: 30vh;
 }
 
 #portfoliosection,
 #contactsection {
-  margin-bottom: 250px;
+  margin-bottom: 100vh;
+}
+
+#portfoliosection {
+  margin-top: 50vh;
 }
 
 #resumesection {
@@ -174,33 +152,73 @@ ul {
   text-align: center;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.animation-container {
-  flex-shrink: 0;
-  width: 300px;
-
-}
 
 .header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#name {
-  font-family: 'Passion One', cursive;
-  font-size: 90px;
-  text-align: center;
-  margin-right: 160px;
+ 
 }
 
 #portfoliosection #header-font {
   font-family: 'Passion One', cursive;
   font-size: 60px;
   text-align: center;
+}
+
+.section {
+  height: 40vh;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-items {
+  display: flex;
+  justify-content: center;
+}
+
+ul.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+ul.nav li {
+  margin-right: 20px;
+  transition: text-shadow 2s ease-in-out;
+}
+
+ul.nav li a {
+  color: #c81ce3;
+  text-decoration: none;
+}
+
+ul.nav li a:hover {
+  color: #c81ce3;
+  animation: pulse 5s;
+}
+
+.animation-container {
+  display: flex;
+  width: 600px;
+  margin: auto;
+
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 5px 8px #c81ce3; 
+  }
+  100% {
+    text-shadow: 5px 8px #c81ce3; 
+  }
+}
+
+#chevron {
+  margin-bottom: 20vh;
 }
