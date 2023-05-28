@@ -129,8 +129,8 @@ ul {
   margin-bottom: 100vh;
 }
 
-#portfoliosection {
-  margin-top: 50vh;
+#portfoliosection, #contactsection {
+  margin-top: 70vh;
 }
 
 #resumesection {
@@ -197,12 +197,12 @@ ul.nav li a {
 
 ul.nav li a:hover {
   color: #c81ce3;
-  animation: pulse 5s;
+  animation: pulse 3s;
 }
 
 .animation-container {
   display: flex;
-  width: 600px;
+  width: 490px;
   margin: auto;
 
 }
