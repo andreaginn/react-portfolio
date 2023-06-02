@@ -16,6 +16,7 @@ function Nav() {
 
   return (
     <div>
+{/* //navbar */}
     <div className="navbar">
    <h1 id="name">ANDREA GINN</h1>
    <div className="header-container">
