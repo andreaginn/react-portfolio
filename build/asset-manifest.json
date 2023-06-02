@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.1f970d76.css",
+    "main.js": "/react-portfolio/static/js/main.aeb49482.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/CfFScreenshot.jpg": "/react-portfolio/static/media/CfFScreenshot.b8b03ef0dda552396c62.jpg",
+    "static/media/andrea.jpg": "/react-portfolio/static/media/andrea.5edeb53022bb18f51380.jpg",
+    "static/media/assignment.jpg": "/react-portfolio/static/media/assignment.4624736340c798a38a07.jpg",
+    "static/media/jam-session.jpg": "/react-portfolio/static/media/jam-session.5a567075b0153b4f0b33.jpg",
+    "static/media/employee-tracker.jpg": "/react-portfolio/static/media/employee-tracker.38cab3b294c83824a994.jpg",
+    "static/media/workday-scheduler.jpg": "/react-portfolio/static/media/workday-scheduler.4b13d7007e419ae06116.jpg",
+    "static/media/notepad.jpg": "/react-portfolio/static/media/notepad.25dd3ebfc15c77a45a8c.jpg",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.1f970d76.css.map": "/react-portfolio/static/css/main.1f970d76.css.map",
+    "main.aeb49482.js.map": "/react-portfolio/static/js/main.aeb49482.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f970d76.css",
+    "static/js/main.aeb49482.js"
+  ]
+}
