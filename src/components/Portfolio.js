@@ -7,9 +7,9 @@ function Portfolio() {
         <h1 id="header-font">PORTFOLIO</h1>
         <div className="portfolio-gallery">
             <Fade right>
-          <a href="https://andreaginn.github.io/HoriseonSite/" className="project-link">
-            <img src={require("../assets/assignment.jpg")} height="200px" id="horiseon" alt="screenshot of Project 1 Site" />
-            <div className="pictext">Project 1 Site</div>
+          <a href="https://github.com/andreaginn/bloom" className="project-link">
+            <img src={require("../assets/bloom.jpg")} height="200px" id="bloom" alt="screenshot of Bloom sign up screen" />
+            <div className="pictext">Bloom</div>
           </a>
           </Fade>
           <Fade left>
